@@ -48,10 +48,8 @@ A simple Laravel application using **Livewire** to create and manage notes.
    ```sh
    composer install
    ```
-3. **Copy and configure `.env` file:**
-   ```sh
-   cp .env.example .env
-   ```
+3. **Configure `.env` fil:**
+
    - Set database credentials in `.env`:
      ```env
      DB_CONNECTION=pgsql
@@ -61,15 +59,11 @@ A simple Laravel application using **Livewire** to create and manage notes.
      DB_USERNAME=your-username
      DB_PASSWORD=your-password
      ```
-4. **Generate application key:**
-   ```sh
-   php artisan key:generate
-   ```
-5. **Run migrations:**
+4. **Run migrations:**
    ```sh
    php artisan migrate
    ```
-6. **Start the development server:**
+5. **Start the development server:**
    ```sh
    php artisan serve
    ```
