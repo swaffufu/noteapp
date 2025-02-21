@@ -10,7 +10,7 @@ class Remark extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['note_id', 'user_id', 'content'];
+    protected $fillable = ['note_id', 'user_id', 'message'];
 
     public function note(): BelongsTo
     {
@@ -22,3 +22,4 @@ class Remark extends Model
         return $this->belongsTo(User::class);
     }
 }
+
