@@ -48,10 +48,8 @@ A simple Laravel application to create and manage notes.
    ```sh
    composer install
    ```
-3. **Configure `.env` file:**
-   ```sh
-   cp .env.example .env
-   ```
+3. **Configure `.env` fil:**
+
    - Set database credentials in `.env`:
      ```env
      DB_CONNECTION=pgsql
