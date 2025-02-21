@@ -23,7 +23,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 # Note Application
 
-A simple Laravel application using **Livewire** to create and manage notes.
+A simple Laravel application to create and manage notes.
 
 ## Features
 - Create, edit, and delete notes.
@@ -41,14 +41,14 @@ A simple Laravel application using **Livewire** to create and manage notes.
 ### Setup
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-username/note-app.git
-   cd note-app
+   git clone https://github.com/swaffufu/noteapp.git
+   cd notapp
    ```
 2. **Install dependencies:**
    ```sh
    composer install
    ```
-3. **Copy and configure `.env` file:**
+3. **Configure `.env` file:**
    ```sh
    cp .env.example .env
    ```
@@ -61,15 +61,11 @@ A simple Laravel application using **Livewire** to create and manage notes.
      DB_USERNAME=your-username
      DB_PASSWORD=your-password
      ```
-4. **Generate application key:**
-   ```sh
-   php artisan key:generate
-   ```
-5. **Run migrations:**
+4. **Run migrations:**
    ```sh
    php artisan migrate
    ```
-6. **Start the development server:**
+5. **Start the development server:**
    ```sh
    php artisan serve
    ```
@@ -79,9 +75,6 @@ A simple Laravel application using **Livewire** to create and manage notes.
 - Notes are displayed in real-time using Livewire.
 - Click edit/delete to modify your notes.
 
-## Livewire Components
-- `Note` component handles displaying and managing notes.
-- Uses **real-time validation** and updates.
 
 ## Contributing
 Feel free to fork and submit a pull request!
