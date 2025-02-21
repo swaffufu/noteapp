@@ -26,7 +26,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 A simple Laravel application to create and manage notes.
 
 ## Features
-- Create, edit, and delete notes.
+- Create, edit, and delete notes.   
 - User authentication.
 - Real-time UI updates with Livewire.
 
